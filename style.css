@@ -47,6 +47,10 @@ footer {
 	width: 75px;
 }
 
+.image-holder {
+		border-radius: 50%;
+		border: 1px solid black;
+	}
 
 
 
@@ -58,12 +62,10 @@ footer {
 	.image-holder {
 		width: 300px;
 		height: 300px;
+		border-radius: 50%;
+		border: 1px solid black;
 	}
 
-	.map-holder {
-		width: 300px;
-		height: 300px;
-	}
 }
 
 
