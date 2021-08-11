@@ -51,8 +51,17 @@
 }
 
 .projects {
-	height: 100vh;
+	height: 240vh;
 	text-align: center;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+@media(min-width: 768px){
+	.projects {
+		height: 130vh;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
