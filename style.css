@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans Condensed', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.nav-item{
+	font-size: 24px;
+}
+
+.name-holder{
+	font-size: 24px; 
+}
+
+.jumbotron{
+	background-color: #181c24;
+	height: 100vh;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.jumbotron-text {
+	padding: 20px;
+	font-size: 24px
+}
+
+.jumbotron-text h1{
+	font-weight: bold;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.about-me {
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.image-holder{
+	width: 200px;
+}
+
+.projects {
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
