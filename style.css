@@ -6,26 +6,23 @@
 	scroll-behavior: smooth;
 }
 
-.nav-item{
+
+.nav-item, .name-holder {
 	font-size: 24px;
 }
 
-.name-holder{
-	font-size: 24px; 
+.name-holder {
+	font-size: 24px;
 }
 
 .jumbotron{
 	background-color: #181c24;
 	height: 100vh;
 	color: white;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
+	text-align: center;	
 }
 
-
 .jumbotron-text {
-	padding: 20px;
 	font-size: 24px
 }
 
@@ -33,35 +30,45 @@
 	font-weight: bold;
 }
 
-.title {
-	width: 100%;
-	text-align: center;
+.title{
 	font-weight: bold;
 }
 
-.about-me {
-	height: 100vh;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
+.form-group {
+	text-align: left
 }
 
-.image-holder{
-	width: 200px;
+footer {
+	background-color: #383c44;
+	color: white;
 }
 
-.projects {
-	height: 240vh;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
+.icons {
+	width: 75px;
 }
 
-@media(min-width: 768px){
-	.projects {
-		height: 130vh;
-		text-align: center;
-		display: flex;
-		flex-wrap: wrap;
+
+
+
+@media (max-width: 767px){
+	.jumbotron {
+		padding-top: 150px;
+	}
+
+	.image-holder {
+		width: 300px;
+		height: 300px;
+	}
+
+	.map-holder {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+
+@media (min-width: 768px){
+	.jumbotron {
+		padding-top: 220px;
 	}
 }
