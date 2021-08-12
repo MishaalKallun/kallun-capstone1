@@ -34,6 +34,11 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+main p {
+	text-indent: 30px;
+	font-size: 24px;
+}
+
 .title{
 	font-weight: bold;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -56,6 +61,8 @@ footer {
 .image-holder {
 		border-radius: 50%;
 		border: 1px solid black;
+		max-width: 300px;
+		max-height: 300px;
 	}
 
 
