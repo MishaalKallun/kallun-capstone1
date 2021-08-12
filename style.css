@@ -48,6 +48,8 @@ main p {
 	text-align: left
 }
 
+
+
 footer {
 	background-color: #383c44;
 	color: white;
@@ -85,4 +87,23 @@ footer {
 	.jumbotron {
 		padding-top: 220px;
 	}
+
+	iframe {
+		height: 85%;
+		width: 95%;
+	}
 }
+
+/*TEST AREA 51!!!!*/ 
+
+.overlay {  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 1;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
